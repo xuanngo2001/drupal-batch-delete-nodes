@@ -1,0 +1,7 @@
+tradesteps.batch_delete_form:
+  path: '/batch_delete_form'
+  defaults:
+    _form: 'Drupal\tradesteps\Form\BatchDeleteForm'
+    _title: 'Batch delete nodes form'
+  requirements:
+    _permission: 'access content'
